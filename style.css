@@ -7,6 +7,10 @@ body {
 nav {
   background-color: #222;
   padding: 15px 0;
+  position: sticky;
+top: 0;
+z-index: 1000;
+
 }
 nav ul {
   list-style: none;
@@ -53,10 +57,30 @@ margin-top: 90px;
 .main button:hover {
   background-color: #e65c00;
 }
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
 /* footer */
 footer {
   background-color: #222;
   color: wheat;
   text-align: center;
   padding: 15px;
+}
+footer:hover {
+    background-color: #000;
 }
